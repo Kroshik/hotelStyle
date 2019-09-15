@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Title of the document</title>
-<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="stylesheet" type="text/css" href="src/resource/css/forms.css">
 </head>
 
 <body>
@@ -15,10 +15,27 @@
 </form>
 </body>
 <form action="/action_page.php">
+<label>
+        Name
+        <input id="name" name="name" type="text" />
+    </label>
+    <label>
+        Phone number
+        <input id="phone" name="phone" type="text" />
+    </label>
+    <label>
+        Year
+        <input id="year" name="year" type="text" />
+    </label>
   First name:<br>
   <input type="text" name="firstname" value="Mickey"><br>
   Last name:<br>
   <input type="text" name="lastname" value="Mouse"><br><br>
-  <input type="submit" value="Submit">
+  <select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
 </form>
 </html>

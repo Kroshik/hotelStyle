@@ -1,11 +1,5 @@
-#dark-shape{
-	color: #1F2041;
-}
-
-#purple{
-	color: #BC9CFF;
-}
-
-#green{
-	color: #6FCF97;
+:root {
+	--dark-shape: #1F2041;
+	--purple:#BC9CFF;
+	--green:#6FCF97;
 }
