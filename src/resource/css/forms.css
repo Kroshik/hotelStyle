@@ -3,6 +3,7 @@
 @import "input.css";
 @import "header.css";
 @import "form.css";
+@import "checkbox.css";
 
 .dropdown {
   width: 320px;
