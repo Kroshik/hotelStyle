@@ -1,0 +1,8 @@
+:root {
+	--dark-shape: #1F2041;
+	--dark-shape-75: rgba(31, 32, 65, 0.75);
+	--dark-shape-50: rgba(31, 32, 65, 0.5);
+	--dark-shape-25: rgba(31, 32, 65, 0.25);
+	--purple:#BC9CFF;
+	--green:#6FCF97;
+}

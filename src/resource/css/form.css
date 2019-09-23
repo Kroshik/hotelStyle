@@ -1,0 +1,36 @@
+@import "color.css";
+@import "fonts.css";
+
+form {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+
+	text-transform: uppercase;
+
+	color: var(--dark-shape);
+}
+
+form label, form input {
+    display: block;
+}
+
+form label {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

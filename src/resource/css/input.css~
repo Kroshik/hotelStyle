@@ -1,0 +1,52 @@
+@import "color.css";
+@import "fonts.css";
+
+input {
+	width: 320px;
+	height: 44px;
+	left: 141px;
+	top: 163px;
+	background: #FFFFFF;
+	border: 1px solid rgba(31, 32, 65, 0.25);
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin-top: 5px
+}
+
+input[type=text] {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+
+	color: var(--dark-shape-25);
+	padding-left: 15px;
+}
+
+input:hover, input:focus  {
+	border: 1px solid var(--dark-shape-50);
+}
+
+input[type=text]:hover, input[type=text]:focus {
+	color: var(--dark-shape-75);
+}
+
+input [type=checkbox] {
+	content: '\2714';
+	background-size: 10px;
+}
+
+input [type=checkbox]:checked {
+	content: '\2714';
+}
+
+
+
+
+
+
+
+
+
+
